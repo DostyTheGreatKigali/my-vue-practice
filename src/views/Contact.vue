@@ -1,7 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-      <Button title="Read more" />
+  <div class="contact">
+    <h1>This is a contact page</h1>
+    <!-- <HelloWorld msg="Welcome to Contact Page"/> -->
+    <Button title="Call" />
   </div>
 </template>
 
@@ -11,7 +12,7 @@
 import Button from '@/components/Button.vue'
 
 export default {
-  name: 'About',
+  name: 'Contact',
   components: {
     // HelloWorld,
     Button
